@@ -81,7 +81,7 @@ class ActionGenerateFlutter : AnAction() {
             Generator.createFolder(
                 project, folder,
                 "presentation",
-                "manager", "pages", "widgets"
+                "bloc", "pages", "widgets"
             )
         }
     }

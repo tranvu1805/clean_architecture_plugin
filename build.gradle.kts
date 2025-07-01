@@ -54,7 +54,7 @@ intellijPlatform {
             """.trimIndent())
         ideaVersion {
             sinceBuild = "233"
-            untilBuild = "243.*"
+            untilBuild = "251.*"
         }
         vendor {
             name = vendorName
