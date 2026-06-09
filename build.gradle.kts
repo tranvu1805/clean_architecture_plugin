@@ -1,15 +1,17 @@
-val pluginName: String by project
-val pluginGroup: String by project
-val pluginVersion: String by project
-val ideaVersion: String by project
-val vendorName: String by project
-val vendorEmail: String by project
-val vendorUrl: String by project
-val publishChannels: String by project
-val certificateChain: String by project
-val privateKey: String by project
-val privateKeyPassword: String by project
-val publishToken: String by project
+val pluginName = "Clean Architecture Helper"
+val pluginGroup = "com.github.tranvu"
+val pluginVersion = "1.0.0"
+val ideaVersion = "2023.3"
+
+val vendorName = "Vincent"
+val vendorEmail = "vincent@gmail.com"
+val vendorUrl = "https://vincent.com"
+
+val publishChannels = "stable"
+val certificateChain = ""
+val privateKey = ""
+val privateKeyPassword = ""
+val publishToken = ""
 
 plugins {
     id("java")
@@ -54,7 +56,7 @@ intellijPlatform {
             """.trimIndent())
         ideaVersion {
             sinceBuild = "233"
-            untilBuild = "251.*"
+            untilBuild = "271.*"
         }
         vendor {
             name = vendorName
